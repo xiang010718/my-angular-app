@@ -1,0 +1,8 @@
+<p-button label="Show Dialog" icon="pi pi-info-circle" (click)="showDialog()"></p-button>
+
+<p-dialog header="Dialog Header" [(visible)]="display" [modal]="true" (onHide)="hideDialog()">
+  <p>Content of the dialog</p>
+  <p-footer>
+    <p-button label="Close" icon="pi pi-times" (click)="hideDialog()"></p-button>
+  </p-footer>
+</p-dialog>

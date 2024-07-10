@@ -1,0 +1,14 @@
+[
+    {
+      "code": "P001",
+      "name": "Product 1",
+      "category": "Category 1",
+      "quantity": 100
+    },
+    {
+      "code": "P002",
+      "name": "Product 2",
+      "category": "Category 2",
+      "quantity": 200
+    }
+  ]
